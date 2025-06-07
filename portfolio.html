@@ -3,42 +3,245 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2><centre>welcome Students</centre></h2>
-    <br><br>
-    <h3><centre>survey for your intrested domain</centre></h3>
-    <br><br>
-    <form>
-        <centre><input type="text",placeholder="enter user name"/></centre>
-        <br> <br>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Chitransh's portfolio</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: grey;
 
-        <centre><input type ="password",placeholder="enter correct pasword"/></centre>
-        <br> <br>
-        <centre><input type="submit",placeholder="sign in"/></centre>
-        <br> <br>
-        <pre>
-            <centre><b><u>TELL ME ABOUT SELF</u></b></centre>
-            <br> <br>
-            <centre><input type="text",placeholder="type something here"/></centre>
-            <br> <br>
-            <pre>
-                <centre><b><u>CHOOSE YOUR DOMAIN</u></b></centre>
-
-            </pre>
-            <br> <br>
-            <table>
-                <tr>
-                    <th>domain</th>
-                    <tr>python</tr>
-                    <tr>java</tr>
-                    <tr>c++</tr>
-                </tr>
-            </table>
-            <centre><input type="text",placeholder="type here"/></centre>
+        }
+        nav ul{
+            justify-content: center;
+            display: flex;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        .left{
+            font-size: 2rem;
+        }
+        .firstsection{
+            justify-content: space-around;
+            display: flex;
+            margin: 23px 0;
+        }
         
-        </pre>
-    </form>
+            
+        
+        .leftsec{
+            
+            font-size: 2rem;
+            margin-top: 70px;
+        }
+        .rightsec{
+            
+        }
+        .imgg{
+            height: 500px;
+            width: 500px;
+            align-items: center;
+        }
+        .purple{
+            color: rgb(161, 119, 161);
+        }
+         nav ul li a:hover{
+            list-style: none;
+            color: rgb(156, 156, 180);
+            font-size: 1.1rem;
+        }
+         nav ul li a{
+            list-style: none;
+            color: white;
+            
+        }
+        .job{
+            color:  rgb(161, 119, 161) ;
+            font-size: 3rem;
+           
+            
+        }
+        .skils{
+           margin: auto;
+           max-width: 80vw;
+           font-size: 1.5rem;
+           color: rgb(155, 155, 201);
+           
+        }
+        .box{
+            background-color: white;
+            width: 65vw;
+            height: 2px;
+            max-width: 56px 0 ;
+            display: flex;
+
+        }
+        .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+        .v-text{
+            margin-top: 95px;
+            margin-left: -10px;
+        }
+        .img{
+            position: relative;
+            margin-top: -32px;
+            margin-left: -10px;
+            color: rgb(195, 182, 182);
+        }
+        .line{
+            background-color: white;
+            width: auto;
+            height: 2px;
+            max-width: 56px 0 ;
+            display: flex;
+            margin-top: 350px;
+
+        }
+        .bio1{
+            height: 40vh;
+            margin: auto;
+           max-width: 80vw;
+           font-size: 1.5rem;
+           color: rgb(155, 155, 201);
+        }
+        .mybio{
+            color: rgb(242, 227, 200);
+        }
+        .foot{
+            background-color: rgb(114, 110, 110);
+            width: 100%;
+            height: 15vh;
+            
+        }
+        .content{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20%;
+        }
+        .content .footer1 {
+            color:   rgb(255, 255, 255);
+
+
+        }
+        .content .footer{
+            color: rgb(36, 61, 46);
+            font-size: 1.2rem;
+        }
+        .content .footer  :hover{
+            color: rgb(255, 255, 255);
+            font-size: 1.3rem;
+
+        }
+        .button .btn{
+            background-color:rgb(105, 92, 92);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            
+
+            
+        }
+        
+
+        
+        
+        
+        
+        
+    </style>
+    
+</head>
+<body style="background-color: rgb(52, 48, 48); color: white;">
+    <header>
+        <nav>
+            <div class="left">Chitransh portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home </a></li>
+                    <li><a href="">About </a></li>
+                    <li><a href="">Service </a></li>
+                    <li><a href="">projects </a></li>
+                    <li><a href="">Contact </a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="firstsection">
+            <div class="leftsec">Hii, my name is <span class="purple">  Chitransh khare</span>
+                
+                <div class="namesec">I am a passionate <span class="job"> <br> web Developer! </br> </span></div>
+                <div class="button">
+                    <button class=" btn"> Downnload resume </button>
+                    <button class="btn"> Git hub </button>
+                </div>
+            </div>
+            <div class="rightsec">
+                <img class="imgg"  src="https://png.pngtree.com/png-clipart/20231109/original/pngtree-programmer-it-developer-png-image_13520483.png" alt="">
+                
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <section class="skils"> 
+        
+        <h1> skills</h1>
+        <div class="box">
+            <div class="vertical">
+                <div class="img"><i class="fa-brands fa-html5"></i></div>
+                <div class="v-text"> HTML5</div>
+            </div>
+            <div class="vertical">
+                <div class="img"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="v-text">CSS3</div>
+            </div>
+            <div class="vertical">
+                <div class="img"><i class="fa-brands fa-js"></i></div>
+                <div class="v-text">javascript</div>
+            </div>
+            <div class="vertical">
+                <div class="img"><i class="fa-brands fa-python"></i></div>
+                <div class="v-text">python</div>
+            </div>
+            
+            
+            
+        
+
+        </div>
+    </section>
+    <section class="bio"></section>
+    <div class="line"></div>
+    <div class="bio1"> <h1>Bio</h1> <br> <span class="mybio"> hey! i am chitransh...Passionate and results-driven developer with hands-on experience in Python programming, data structures and algorithms (DSA), and modern web development. I specialize in crafting efficient backend logic using Python and nodejs and building responsive, user-friendly web interfaces with HTML, CSS, JavaScript, and React.js.
+
+With a strong foundation in problem-solving and clean code principles, I enjoy turning complex challenges into scalable, maintainable solutions. Whether it’s optimizing algorithms or developing dynamic front-end applications, I focus on delivering high-quality work that meets user needs and business goals.
+
+    Currently expanding my expertise in AI and machine learning, while sharpening my skills in front-end and back-end development. Open to collaborative projects, internships, and opportunities that challenge me to grow as a developer.</span></div>
+    <footer class="foot">
+        <div class="content">
+
+            <div class="footer1"> <h2> chitransh portfolio</h2></div>
+            <div class="footer"> <a href=""> Home</a> </div>
+            <div class="footer"> <a href=""> Contact</a></div>
+            <div class="footer"> <a href=""> Instagram</a></div>
+            <div class="footer"> <a href="www.linkedin.com/in/chitransh-khare-068533321"> LinkedIn</a></div>
+        </div>
+       
+
+    </footer>
+    
 </body>
 </html>
